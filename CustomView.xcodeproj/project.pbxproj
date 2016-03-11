@@ -12,6 +12,8 @@
 		9B2149831C92D0000060C962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2149811C92D0000060C962 /* Main.storyboard */; };
 		9B2149851C92D0000060C962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2149841C92D0000060C962 /* Assets.xcassets */; };
 		9B2149881C92D0000060C962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2149861C92D0000060C962 /* LaunchScreen.storyboard */; };
+		9B2149911C92D53A0060C962 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21498F1C92D53A0060C962 /* CustomView.swift */; };
+		9B2149921C92D53A0060C962 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2149901C92D53A0060C962 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B2149841C92D0000060C962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2149871C92D0000060C962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2149891C92D0000060C962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B21498F1C92D53A0060C962 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9B2149901C92D53A0060C962 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9B21497D1C92D0000060C962 /* AppDelegate.swift */,
 				9B21497F1C92D0000060C962 /* ViewController.swift */,
+				9B21498F1C92D53A0060C962 /* CustomView.swift */,
+				9B2149901C92D53A0060C962 /* CustomView.xib */,
 				9B2149811C92D0000060C962 /* Main.storyboard */,
 				9B2149841C92D0000060C962 /* Assets.xcassets */,
 				9B2149861C92D0000060C962 /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2149881C92D0000060C962 /* LaunchScreen.storyboard in Resources */,
+				9B2149921C92D53A0060C962 /* CustomView.xib in Resources */,
 				9B2149851C92D0000060C962 /* Assets.xcassets in Resources */,
 				9B2149831C92D0000060C962 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2149911C92D53A0060C962 /* CustomView.swift in Sources */,
 				9B2149801C92D0000060C962 /* ViewController.swift in Sources */,
 				9B21497E1C92D0000060C962 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				9B21498E1C92D0000060C962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
